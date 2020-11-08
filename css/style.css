@@ -1,0 +1,135 @@
+/* common */
+* {
+  --web-color: #2196f3;
+  --main-text-color: #757575;
+  --second-text-color: #212121;
+  --white: #999999;
+  --background-dark: #2f303a;
+  --background-grey: #f5f4fa;
+}
+body {
+  font-family: Roboto;
+  color: var(--main-text-color);
+  font-style: 14px;
+  color: var(--main-text-color);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--second-text-color);
+}
+a {
+  text-decoration: none;
+}
+/* header */
+nav a {
+  color: var(--second-text-color);
+}
+.link-hover:hover {
+  color: var(--web-color);
+}
+li {
+  list-style: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
+.web {
+  color: var(--web-color);
+}
+
+.nav {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.right-nav {
+  line-height: 1.2;
+  color: var(--main-text-color);
+}
+/* order */
+.order h1 {
+  color: var(--white);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.order a {
+  color: var(--white);
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+/* our values */
+.values p {
+  font-weight: 400;
+  line-height: 1.7;
+}
+/* our team */
+.activity h2,
+.team h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.team h3 {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.team p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Footer */
+.studio-footer {
+  color: var(--white);
+}
+footer address {
+  color: var(--white);
+}
+footer a {
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--main-text-color);
+}
+
+/* portfolio page */
+
+/* filter */
+.filter {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+.filter a {
+  color: var(--second-text-color);
+}
+.filter a:hover {
+  color: var(--white);
+}
+/* produsts */
+
+.products h3 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.products p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+}
